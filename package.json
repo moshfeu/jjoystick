@@ -1,0 +1,15 @@
+{
+  "name": "jjoystick",
+  "version": "1.0.0",
+  "description": "A Custom Html Component for horizontal Joystick built on top of input-range",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshfeu/jjoystick.git"
+  },
+  "author": "MoshFeu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moshfeu/jjoystick/issues"
+  },
+  "homepage": "https://github.com/moshfeu/jjoystick#readme"
+}
