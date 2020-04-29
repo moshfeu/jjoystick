@@ -2,17 +2,21 @@ Dead simple horizontal Joystick built as web components on top of `input[type=ra
 
 ## Installation
 
-`npm install jjoystick`
+```
+npm install jjoystick
+```
 
-`yarn add jjoystick`
-
-## Usage
+```
+yarn add jjoystick
+```
 
 ## Events
 
 - `dir` - when directions changed even without ending the touch / click
 - `end` - when interaction ended
 - `zero` - when handle went to the initial position
+
+## Usage
 
 ```html
 <script src="node_modules/jjoystick/index.js"></script>
