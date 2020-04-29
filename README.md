@@ -21,8 +21,12 @@ Dead simple horizontal Joystick built as web components on top of `input[type=ra
 
 <script>
 const joystick = document.querySelector('j-joystick');
-joystick.addEventListener('dir', ({details}) => console.log(details) /* right, left */);
+joystick.addEventListener('dir', ({detail}) => console.log(detail) /* right, left */);
 joystick.addEventListener('end', () => console.log('end'));
 joystick.addEventListener('zero', () => console.log('zero'));
 </script>
 ```
+
+## Demo
+
+https://codesandbox.io/s/jjoystick-demo-71trm
