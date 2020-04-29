@@ -76,6 +76,8 @@ class JJoystick extends HTMLElement {
         background: none;
         opacity: 0.5;
         transition: opacity .15s ease;
+        -webkit-tap-highlight-color: transparent;
+        cursor: default;
       }
 
       input[type="range"]:active {
@@ -100,6 +102,7 @@ class JJoystick extends HTMLElement {
       const {value} = e.target;
       const side = this.states[value];
       if (side === 'none') {
+        this.dispatchEvent(new CustomEvent('zero'));
         return;
       }
       this.dispatchEvent(new CustomEvent('dir', {
